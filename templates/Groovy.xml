@@ -9,4 +9,11 @@
       <option name="GROOVY" value="true" />
     </context>
   </template>
+  <template name="jtwiceMaven" value="implementation 'com.twice.perfect:$LIBRARY$:$VERSION$'" toReformat="false" toShortenFQNames="true">
+    <variable name="LIBRARY" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VERSION" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="GROOVY" value="true" />
+    </context>
+  </template>
 </templateSet>
