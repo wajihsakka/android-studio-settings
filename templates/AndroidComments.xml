@@ -1,0 +1,8 @@
+<templateSet group="AndroidComments">
+  <template name="jlink" value="{@link $classToLink$}" description="link from within javadoc" toReformat="false" toShortenFQNames="true">
+    <variable name="classToLink" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_COMMENT" value="true" />
+    </context>
+  </template>
+</templateSet>

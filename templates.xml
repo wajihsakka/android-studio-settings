@@ -1,0 +1,44 @@
+<application>
+  <component name="TemplateSettings">
+    <option name="deletedKeys">
+      <list>
+        <TemplateKey>
+          <option name="groupName" value="AndroidComments" />
+          <option name="key" value="clink" />
+        </TemplateKey>
+        <TemplateKey>
+          <option name="groupName" value="AndroidLog" />
+          <option name="key" value="logd" />
+        </TemplateKey>
+        <TemplateKey>
+          <option name="groupName" value="AndroidLog" />
+          <option name="key" value="loge" />
+        </TemplateKey>
+        <TemplateKey>
+          <option name="groupName" value="AndroidLog" />
+          <option name="key" value="logi" />
+        </TemplateKey>
+        <TemplateKey>
+          <option name="groupName" value="AndroidLog" />
+          <option name="key" value="logw" />
+        </TemplateKey>
+        <TemplateKey>
+          <option name="groupName" value="AndroidLog" />
+          <option name="key" value="wtf" />
+        </TemplateKey>
+        <TemplateKey>
+          <option name="groupName" value="AndroidLog" />
+          <option name="key" value="logt" />
+        </TemplateKey>
+        <TemplateKey>
+          <option name="groupName" value="AndroidLog" />
+          <option name="key" value="logm" />
+        </TemplateKey>
+        <TemplateKey>
+          <option name="groupName" value="AndroidLog" />
+          <option name="key" value="logr" />
+        </TemplateKey>
+      </list>
+    </option>
+  </component>
+</application>

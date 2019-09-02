@@ -1,0 +1,64 @@
+<templateSet group="CustomAndroid">
+  <template name="jconst-Int" value="public static final int $NAME$ = $VALUE$;" description="" toReformat="false" toShortenFQNames="true" useStaticImport="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VALUE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="jconst-Int-private" value="private static final int $NAME$ = $VALUE$;" description="" toReformat="false" toShortenFQNames="true" useStaticImport="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VALUE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="jconst-String" value="public static final String $NAME$ = $VALUE$;" description="" toReformat="false" toShortenFQNames="true" useStaticImport="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VALUE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="jconst-String-private" value="public static final String $NAME$ = $VALUE$;" description="" toReformat="false" toShortenFQNames="true" useStaticImport="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VALUE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="jfind-view" value="= findViewById(R.id.$ID$);" description="" toReformat="false" toShortenFQNames="true" useStaticImport="true">
+    <variable name="ID" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="jfind-view-attached" value="= $PARENT$.findViewById(R.id.$ID$);" description="" toReformat="false" toShortenFQNames="true" useStaticImport="true">
+    <variable name="PARENT" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="ID" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="jview-Visibility" value="$VIEW$.setVisibility(View.$VISIBILITY$);" description="" toReformat="false" toShortenFQNames="true" useStaticImport="true">
+    <variable name="VIEW" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VISIBILITY" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="jresources-string" value="$RESOURCES$.getString(R.string.$RES_ID$);" description="" toReformat="false" toShortenFQNames="true" useStaticImport="true">
+    <variable name="RESOURCES" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="RES_ID" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="jtry-Catch" value="try{&#10;    $TRY_BLOC$&#10;}catch(Exception e){&#10;    $CATCH_BLOC$&#10;}" description="" toReformat="false" toShortenFQNames="true" useStaticImport="true">
+    <variable name="TRY_BLOC" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="CATCH_BLOC" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+</templateSet>
