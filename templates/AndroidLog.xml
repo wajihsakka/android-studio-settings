@@ -1,0 +1,59 @@
+<templateSet group="AndroidLog">
+  <template name="jlog-d" value="android.util.Log.d(TAG, &quot;$METHOD_NAME$: $content$&quot;);" description="Log.d(TAG, String)" toReformat="true" toShortenFQNames="true">
+    <variable name="METHOD_NAME" expression="methodName()" defaultValue="" alwaysStopAt="false" />
+    <variable name="content" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="jlog-e" value="android.util.Log.e(TAG, &quot;$METHOD_NAME$: $content$&quot;, $exception$);" description="Log.e(TAG, String, Exception)" toReformat="true" toShortenFQNames="true">
+    <variable name="METHOD_NAME" expression="methodName()" defaultValue="" alwaysStopAt="false" />
+    <variable name="content" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="exception" expression="" defaultValue="e" alwaysStopAt="false" />
+    <context>
+      <option name="JAVA_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="jlog-i" value="android.util.Log.i(TAG, &quot;$METHOD_NAME$: $content$&quot;);" description="Log.i(TAG, String)" toReformat="true" toShortenFQNames="true">
+    <variable name="METHOD_NAME" expression="methodName()" defaultValue="" alwaysStopAt="false" />
+    <variable name="content" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="jlog-w" value="android.util.Log.w(TAG, &quot;$METHOD_NAME$: $content$&quot;, $exception$);" description="Log.w(TAG, String, Exception)" toReformat="true" toShortenFQNames="true">
+    <variable name="METHOD_NAME" expression="methodName()" defaultValue="" alwaysStopAt="false" />
+    <variable name="content" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="exception" expression="" defaultValue="e" alwaysStopAt="false" />
+    <context>
+      <option name="JAVA_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="jwtf" value="android.util.Log.wtf(TAG, &quot;$METHOD_NAME$: $content$&quot;, $exception$);" description="Log.wtf(TAG, String, Exception)" toReformat="true" toShortenFQNames="true">
+    <variable name="METHOD_NAME" expression="methodName()" defaultValue="" alwaysStopAt="false" />
+    <variable name="content" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="exception" expression="" defaultValue="e" alwaysStopAt="false" />
+    <context>
+      <option name="JAVA_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="jlog-t" value="private static final String TAG = &quot;$className$&quot;;" description="A static logtag with your current classname" toReformat="true" toShortenFQNames="true">
+    <variable name="className" expression="groovyScript(&quot;_1.take(Math.min(23, _1.length()));&quot;, className())" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_DECLARATION" value="true" />
+    </context>
+  </template>
+  <template name="jlog-m" value="android.util.Log.d(TAG, $content$);" description="Log method name and its arguments" toReformat="true" toShortenFQNames="true">
+    <variable name="content" expression="groovyScript(&quot;def params = _2.collect {it + ' = [\&quot; + ' + it + ' + \&quot;]'}.join(', '); return '\&quot;' + _1 + '() called' + (params.empty  ? '' : ' with: ' + params) + '\&quot;'&quot;, methodName(), methodParameters())" defaultValue="" alwaysStopAt="false" />
+    <context>
+      <option name="JAVA_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="jlog-r" value="android.util.Log.d(TAG, &quot;$METHOD_NAME$() returned: &quot; +  $result$);" description="Log result of this method" toReformat="true" toShortenFQNames="true">
+    <variable name="METHOD_NAME" expression="methodName()" defaultValue="" alwaysStopAt="false" />
+    <variable name="result" expression="variableOfType(methodReturnType())" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_STATEMENT" value="true" />
+    </context>
+  </template>
+</templateSet>

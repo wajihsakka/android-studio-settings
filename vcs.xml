@@ -18,12 +18,8 @@
           <option name="url" value="https://LasFexaS@bitbucket.org/LasFexaS/africa-football-new.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
-        <UrlAndUserName>
-          <option name="url" value="https://twice-perfect@bitbucket.org/twicedev/nativeadsadvanced.git" />
-          <option name="userName" value="" />
-        </UrlAndUserName>
       </list>
     </option>
-    <option name="cloneParentDir" value="C:\AndroidDev" />
+    <option name="cloneParentDir" value="C:\Developpment" />
   </component>
 </application>
