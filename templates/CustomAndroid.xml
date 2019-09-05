@@ -61,4 +61,10 @@
       <option name="JAVA_CODE" value="true" />
     </context>
   </template>
+  <template name="jid-xml" value="android:id=&quot;@+id/$ID$&quot;" toReformat="false" toShortenFQNames="true">
+    <variable name="ID" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="XML" value="true" />
+    </context>
+  </template>
 </templateSet>
