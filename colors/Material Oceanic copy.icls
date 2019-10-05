@@ -1,11 +1,11 @@
-<scheme name="_@user_Material Oceanic" version="142" parent_scheme="Darcula">
+<scheme name="Material Oceanic copy" version="142" parent_scheme="Darcula">
   <option name="FONT_SCALE" value="1.0" />
   <metaInfo>
-    <property name="created">2019-05-13T14:42:38</property>
+    <property name="created">2019-10-01T15:55:44</property>
     <property name="ide">AndroidStudio</property>
-    <property name="ideVersion">3.4.0.18</property>
-    <property name="modified">2019-09-22T18:02:17</property>
-    <property name="originalScheme">Material Oceanic</property>
+    <property name="ideVersion">3.5.0.21</property>
+    <property name="modified">2019-10-01T15:56:37</property>
+    <property name="originalScheme">_@user_Material Oceanic</property>
   </metaInfo>
   <option name="LINE_SPACING" value="1.4" />
   <font>
@@ -562,7 +562,7 @@
     </option>
     <option name="DEFAULT_DOC_COMMENT">
       <value>
-        <option name="FOREGROUND" value="546e7a" />
+        <option name="FOREGROUND" value="98c2" />
         <option name="FONT_TYPE" value="2" />
       </value>
     </option>
@@ -575,7 +575,7 @@
     </option>
     <option name="DEFAULT_DOC_COMMENT_TAG_VALUE">
       <value>
-        <option name="FOREGROUND" value="546e7a" />
+        <option name="FOREGROUND" value="587380" />
         <option name="FONT_TYPE" value="3" />
       </value>
     </option>
@@ -1416,7 +1416,7 @@
     </option>
     <option name="KOTLIN_ANNOTATION">
       <value>
-        <option name="FOREGROUND" value="c792ea" />
+        <option name="FOREGROUND" value="cdea0b" />
       </value>
     </option>
     <option name="KOTLIN_BACKING_FIELD_VARIABLE">
