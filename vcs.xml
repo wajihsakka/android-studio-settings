@@ -10,6 +10,10 @@
           <option name="url" value="http://bitbucket.org" />
           <option name="userName" value="twice-perfect" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="https://twice-perfect@bitbucket.org/twicedev/gridtimeline.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
     <option name="cloneParentDir" value="C:\Dev" />
