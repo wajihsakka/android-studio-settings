@@ -1,9 +1,12 @@
 <application>
   <component name="CodotaSettings">
+    <option name="methodCompletionsPercentageSet" value="true" />
     <option name="id" value="878fb64c-4907-450c-8528-8b6617eee28c" />
     <option name="wasRunBefore" value="true" />
     <option name="firstRun" value="1569171749730" />
     <option name="generation" value="48" />
     <option name="updateGeneration" value="1" />
+    <option name="isMethodCompletionsPercentageActive" value="true" />
+    <option name="isMethodCompletionsPercentageSet" value="true" />
   </component>
 </application>
