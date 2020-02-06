@@ -14,8 +14,12 @@
           <option name="url" value="https://twice-perfect@bitbucket.org/twicedev/gridtimeline.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="https://twice-perfect@bitbucket.org/twice-perfect/plex-corn.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
-    <option name="cloneParentDir" value="C:\Dev" />
+    <option name="cloneParentDir" value="C:\AndroidDev" />
   </component>
 </application>
