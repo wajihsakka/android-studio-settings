@@ -1,0 +1,7 @@
+<templateSet group="Dependencies">
+  <template name="depViewModel" value="implementation &quot;&quot;" description="Lifecycle dependencies" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="GROOVY" value="true" />
+    </context>
+  </template>
+</templateSet>
