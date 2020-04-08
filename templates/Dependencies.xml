@@ -1,40 +1,40 @@
 <templateSet group="Dependencies">
-  <template name="jdepConstraintLayout" value="implementation 'androidx.constraintlayout:constraintlayout:1.1.3'" description="" toReformat="true" toShortenFQNames="true">
+  <template name="xdepConstraintLayout" value="implementation 'androidx.constraintlayout:constraintlayout:1.1.3'" description="" toReformat="true" toShortenFQNames="true">
     <context>
       <option name="GROOVY" value="true" />
     </context>
   </template>
-  <template name="jdepViewModel" value="    // Lifecycle dependencies&#10;    implementation 'androidx.lifecycle:lifecycle-extensions:2.2.0'&#10;    implementation 'androidx.lifecycle:lifecycle-viewmodel-ktx:2.2.0'&#10;    implementation 'androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.0-alpha01'" description="Lifecycle dependencies" toReformat="true" toShortenFQNames="true">
+  <template name="xdepViewModel" value="    // Lifecycle dependencies&#10;    implementation 'androidx.lifecycle:lifecycle-extensions:2.2.0'&#10;    implementation 'androidx.lifecycle:lifecycle-viewmodel-ktx:2.2.0'&#10;    implementation 'androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.0-alpha01'" description="Lifecycle dependencies" toReformat="true" toShortenFQNames="true">
     <context>
       <option name="GROOVY" value="true" />
     </context>
   </template>
-  <template name="jdepRecyclerView" value="implementation 'androidx.recyclerview:recyclerview:1.2.0-alpha02'" description="" toReformat="true" toShortenFQNames="true">
+  <template name="xdepRecyclerView" value="implementation 'androidx.recyclerview:recyclerview:1.2.0-alpha02'" description="" toReformat="true" toShortenFQNames="true">
     <context>
       <option name="GROOVY" value="true" />
     </context>
   </template>
-  <template name="jdepPreferences" value="implementation 'androidx.preference:preference:1.1.0'" description="" toReformat="true" toShortenFQNames="true">
+  <template name="xdepPreferences" value="implementation 'androidx.preference:preference:1.1.0'" description="" toReformat="true" toShortenFQNames="true">
     <context>
       <option name="GROOVY" value="true" />
     </context>
   </template>
-  <template name="jdepMaterialDesign" value="implementation 'com.google.android.material:material:1.1.0'" description="" toReformat="true" toShortenFQNames="true">
+  <template name="xdepMaterialDesign" value="implementation 'com.google.android.material:material:1.1.0'" description="" toReformat="true" toShortenFQNames="true">
     <context>
       <option name="GROOVY" value="true" />
     </context>
   </template>
-  <template name="jdepPalette" value="implementation 'androidx.palette:palette-ktx:1.0.0'" description="" toReformat="true" toShortenFQNames="true">
+  <template name="xdepPalette" value="implementation 'androidx.palette:palette-ktx:1.0.0'" description="" toReformat="true" toShortenFQNames="true">
     <context>
       <option name="GROOVY" value="true" />
     </context>
   </template>
-  <template name="jdepInAppUpdates" value="implementation 'com.google.android.play:core:1.7.2'" description="" toReformat="true" toShortenFQNames="true">
+  <template name="xdepInAppUpdates" value="implementation 'com.google.android.play:core:1.7.2'" description="" toReformat="true" toShortenFQNames="true">
     <context>
       <option name="GROOVY" value="true" />
     </context>
   </template>
-  <template name="jdepGoogleBilling" value="    // Billing&#10;    implementation 'com.android.billingclient:billing:2.2.0&quot;'&#10;    implementation 'com.android.billingclient:billing-ktx:2.1.0'" description="" toReformat="true" toShortenFQNames="true">
+  <template name="xdepGoogleBilling" value="    // Billing&#10;    implementation 'com.android.billingclient:billing:2.2.0&quot;'&#10;    implementation 'com.android.billingclient:billing-ktx:2.1.0'" description="" toReformat="true" toShortenFQNames="true">
     <context>
       <option name="GROOVY" value="true" />
     </context>
