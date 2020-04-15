@@ -1,5 +1,5 @@
 <templateSet group="Kotlin">
-  <template name="jstringVariable" value="${$var$}" toReformat="false" toShortenFQNames="true">
+  <template name="jstringVariable" value="${$var$}" description="" toReformat="false" toShortenFQNames="true">
     <variable name="var" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="KOTLIN" value="true" />
