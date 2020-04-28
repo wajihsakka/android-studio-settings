@@ -26,6 +26,10 @@
           <option name="url" value="https://twice-perfect@bitbucket.org/twice-perfect/tv-guide-engine-new.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="https://twice-perfect@bitbucket.org/twicedev/onboardingdialog.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
     <option name="cloneParentDir" value="C:\AndroidDev" />
