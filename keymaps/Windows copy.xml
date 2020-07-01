@@ -1,4 +1,8 @@
 <keymap version="1" name="Windows copy" parent="$default">
+  <action id="ActivateLogcatToolWindow">
+    <keyboard-shortcut first-keystroke="alt 6" />
+  </action>
+  <action id="ActivateTODOToolWindow" />
   <action id="EditSource">
     <keyboard-shortcut first-keystroke="f4" />
     <mouse-shortcut keystroke="button2" />
@@ -7,4 +11,11 @@
     <mouse-shortcut keystroke="alt button1" />
   </action>
   <action id="EditorPasteFromX11" />
+  <action id="UpdateRunningApplication" />
+  <action id="android.deploy.ApplyChanges">
+    <keyboard-shortcut first-keystroke="ctrl f10" />
+  </action>
+  <action id="android.deploy.CodeSwap">
+    <keyboard-shortcut first-keystroke="ctrl alt f10" />
+  </action>
 </keymap>
