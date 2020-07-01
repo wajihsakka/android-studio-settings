@@ -1,33 +1,33 @@
 <templateSet group="user">
-  <template name="jgreater" value="&gt; $VAR$" toReformat="true" toShortenFQNames="true">
+  <template name="jgreater" value="&gt; $VAR$" description="" toReformat="true" toShortenFQNames="true">
     <variable name="VAR" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_CODE" value="true" />
       <option name="KOTLIN" value="true" />
     </context>
   </template>
-  <template name="jsmaller" value="&lt; $VAR$" toReformat="true" toShortenFQNames="true">
+  <template name="jsmaller" value="&lt; $VAR$" description="" toReformat="true" toShortenFQNames="true">
     <variable name="VAR" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_CODE" value="true" />
       <option name="KOTLIN" value="true" />
     </context>
   </template>
-  <template name="jsandwish" value="&lt;$VAR$&gt;" toReformat="false" toShortenFQNames="true">
+  <template name="jsandwish" value="&lt;$VAR$&gt;" description="" toReformat="false" toShortenFQNames="true">
     <variable name="VAR" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_CODE" value="true" />
       <option name="KOTLIN" value="true" />
     </context>
   </template>
-  <template name="jarrow" value="-&gt; $VAR$" toReformat="true" toShortenFQNames="true">
+  <template name="jarrow" value="-&gt; $VAR$" description="" toReformat="true" toShortenFQNames="true">
     <variable name="VAR" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_CODE" value="true" />
       <option name="KOTLIN" value="true" />
     </context>
   </template>
-  <template name="jarrowCurls" value="-&gt; {&#10; $VAR$   &#10;}" toReformat="true" toShortenFQNames="true">
+  <template name="jarrowCurls" value="-&gt; {&#10; $VAR$   &#10;}" description="" toReformat="true" toShortenFQNames="true">
     <variable name="VAR" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_CODE" value="true" />
