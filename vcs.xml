@@ -34,9 +34,13 @@
           <option name="url" value="https://twice-perfect@bitbucket.org/twicedev/badge-view.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="https://twice-perfect@bitbucket.org/twice-perfect/plexcompanion.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
-    <option name="cloneParentDir" value="C:\" />
+    <option name="cloneParentDir" value="C:\AndroidDev" />
   </component>
   <component name="Vcs.Log.App.Settings">
     <option name="COLUMN_ORDER">
