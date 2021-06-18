@@ -1,0 +1,11 @@
+<application>
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="tvguideengine/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="tvguideengine/src/main/res/layout/activity_main_content.xml" value="0.1" />
+        <entry key="tvguideengine/src/main/res/layout/activity_main_header.xml" value="0.1" />
+      </map>
+    </option>
+  </component>
+</application>
