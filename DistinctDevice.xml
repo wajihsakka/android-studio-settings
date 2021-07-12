@@ -1,0 +1,12 @@
+<application>
+  <component name="DistinctDevice">
+    <option name="androidVersion" value="10" />
+    <option name="deviceForm" value="PHYSICAL" />
+    <option name="deviceType" value="PHONE" />
+    <option name="emui" value="10.0.0" />
+    <option name="model" value="lio-l29" />
+    <option name="phoneName" value="mate 30 pro" />
+    <option name="xres" value="1176" />
+    <option name="yres" value="2400" />
+  </component>
+</application>
