@@ -3,10 +3,10 @@
     <option name="androidVersion" value="10" />
     <option name="deviceForm" value="PHYSICAL" />
     <option name="deviceType" value="PHONE" />
-    <option name="emui" value="10.0.0" />
-    <option name="model" value="lio-l29" />
-    <option name="phoneName" value="mate 30 pro" />
-    <option name="xres" value="1176" />
-    <option name="yres" value="2400" />
+    <option name="emui" value="10.1.0" />
+    <option name="model" value="els-n04" />
+    <option name="phoneName" value="p40 pro" />
+    <option name="xres" value="1200" />
+    <option name="yres" value="2640" />
   </component>
 </application>
