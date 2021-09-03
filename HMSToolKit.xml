@@ -31,7 +31,9 @@
         </entry>
         <entry key="98800ca5">
           <value>
-            <list />
+            <list>
+              <option value="Push Kit" />
+            </list>
           </value>
         </entry>
       </map>
