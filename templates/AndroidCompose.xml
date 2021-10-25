@@ -1,0 +1,8 @@
+<templateSet group="AndroidCompose">
+  <template name="jhiltViewModel" value="class $NAME$ViewModel : androidx.lifecycle.ViewModel() {&#10;&#10;}" description="Add a hilt viewmodel" toReformat="false" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="KOTLIN_TOPLEVEL" value="true" />
+    </context>
+  </template>
+</templateSet>
