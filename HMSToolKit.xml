@@ -1,0 +1,79 @@
+<application>
+  <component name="HMSToolKitPlugin">
+    <option name="localAgreementList">
+      <list>
+        <LocalAgreement>
+          <option name="area" value="DR3" />
+          <option name="name" value="latest" />
+          <option name="signAgreementTime" value="1628769834544" />
+          <option name="version" value="20210330" />
+        </LocalAgreement>
+      </list>
+    </option>
+    <option name="logAnalyzerSwitch" value="false" />
+    <option name="usedKitsMap">
+      <map>
+        <entry key="2233acd3">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="39e6ca30">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="55725d5e">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="7a8f4592">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="7ed0ef7d">
+          <value>
+            <list>
+              <option value="Push Kit" />
+            </list>
+          </value>
+        </entry>
+        <entry key="81e3ebad">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="98800ca5">
+          <value>
+            <list>
+              <option value="Push Kit" />
+            </list>
+          </value>
+        </entry>
+        <entry key="ba5513a8">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="d5b526af">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="e40a5992">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="f37acc61">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="userId" value="b48c7ecb-50bc-4562-92ed-5fbf9c6a5a96" />
+  </component>
+</application>

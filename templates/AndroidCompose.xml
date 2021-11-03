@@ -1,0 +1,17 @@
+<templateSet group="AndroidCompose">
+  <template name="jhiltViewModel" value="@dagger.hilt.android.lifecycle.HiltViewModel&#10;class $NAME$ @javax.inject.Inject constructor(&#10;    $ELEM$&#10;) : androidx.lifecycle.ViewModel() {&#10;    $END$&#10;}" description="Add a hilt viewmodel" toReformat="true" toShortenFQNames="true">
+    <variable name="NAME" expression="fileNameWithoutExtension()" defaultValue="" alwaysStopAt="false" />
+    <variable name="ELEM" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="KOTLIN_TOPLEVEL" value="true" />
+    </context>
+  </template>
+  <template name="jvmState" value="private val _$NAME$State = kotlinx.coroutines.flow.MutableStateFlow($DEFAULT$)&#10;val $NAME$State:kotlinx.coroutines.flow.StateFlow&lt;$TYPE$&gt;&#10;get() = _$NAME$State&#10;$END$" description="Add a hilt viewmodel" toReformat="true" toShortenFQNames="true">
+    <variable name="NAME" expression="kotlinSuggestVariableName()" defaultValue="" alwaysStopAt="true" />
+    <variable name="TYPE" expression="complete()" defaultValue="" alwaysStopAt="true" />
+    <variable name="DEFAULT" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="KOTLIN" value="true" />
+    </context>
+  </template>
+</templateSet>

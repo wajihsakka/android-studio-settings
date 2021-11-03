@@ -5,4 +5,20 @@
       <option name="KOTLIN" value="true" />
     </context>
   </template>
+  <template name="jsound" value=",&#10;&quot;$var1$&quot; to SoundTrack(&#10;        trackId = &quot;$var1$&quot;,&#10;        title = &quot;$var2$&quot;,&#10;        iconResId = R.drawable.$var3$,&#10;        soundResId = R.raw.$var4$&#10;    )" description="" toReformat="true" toShortenFQNames="true">
+    <variable name="var1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="var2" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="var3" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="var4" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="KOTLIN" value="true" />
+    </context>
+  </template>
+  <template name="jtile" value=", SoundTileDM(&#10;                trackId = &quot;$var1$&quot;,&#10;                categoryName = &quot;$var2$&quot;,&#10;                volume = 50&#10;            )" description="" toReformat="true" toShortenFQNames="true">
+    <variable name="var1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="var2" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="KOTLIN" value="true" />
+    </context>
+  </template>
 </templateSet>
