@@ -1,9 +1,9 @@
 <application>
   <component name="FindSettings">
-    <option name="customScope" value="Project 'Infractions Routière'" />
-    <option name="defaultScopeName" value="Project 'Infractions Routière'" />
+    <option name="customScope" value="Project 'RemoteConfig'" />
+    <option name="defaultScopeName" value="Project 'RemoteConfig'" />
     <option name="localRegularExpressions" value="true" />
     <option name="LOCAL_REGULAR_EXPRESSIONS" value="true" />
-    <option name="SEARCH_SCOPE" value="Project 'Infractions Routière'" />
+    <option name="SEARCH_SCOPE" value="Project 'RemoteConfig'" />
   </component>
 </application>
