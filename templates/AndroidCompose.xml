@@ -13,7 +13,7 @@
       <option name="KOTLIN" value="true" />
     </context>
   </template>
-  <template name="jmodifierDeclaration" value="modifier: Modifier," description="Add a hilt viewmodel" toReformat="true" toShortenFQNames="true">
+  <template name="jmodifierDeclaration" value="modifier: Modifier = Modifier," description="Add a hilt viewmodel" toReformat="true" toShortenFQNames="true">
     <context>
       <option name="KOTLIN" value="true" />
     </context>
