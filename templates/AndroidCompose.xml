@@ -1,5 +1,5 @@
 <templateSet group="AndroidCompose">
-  <template name="jmodifier" value="modifier = androidx.compose.ui.Modifier$ELEM$," description="Add a hilt viewmodel" toReformat="true" toShortenFQNames="true">
+  <template name="jmodifier" value="modifier = Modifier$ELEM$," description="Add a hilt viewmodel" toReformat="true" toShortenFQNames="true">
     <variable name="ELEM" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="KOTLIN" value="true" />
@@ -13,7 +13,7 @@
       <option name="KOTLIN" value="true" />
     </context>
   </template>
-  <template name="jmodifierDeclaration" value="modifier: androidx.compose.ui.Modifier," description="Add a hilt viewmodel" toReformat="true" toShortenFQNames="true">
+  <template name="jmodifierDeclaration" value="modifier: Modifier," description="Add a hilt viewmodel" toReformat="true" toShortenFQNames="true">
     <context>
       <option name="KOTLIN" value="true" />
     </context>
