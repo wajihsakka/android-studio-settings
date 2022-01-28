@@ -6,8 +6,8 @@
     </context>
   </template>
   <template name="jvmState" value="private val _$NAME$State = kotlinx.coroutines.flow.MutableStateFlow($DEFAULT$)&#10;val $NAME$State:kotlinx.coroutines.flow.StateFlow&lt;$TYPE$&gt;&#10;get() = _$NAME$State&#10;$END$" description="Add a hilt viewmodel" toReformat="true" toShortenFQNames="true">
-    <variable name="NAME" expression="kotlinSuggestVariableName()" defaultValue="" alwaysStopAt="true" />
-    <variable name="TYPE" expression="complete()" defaultValue="" alwaysStopAt="true" />
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="TYPE" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="DEFAULT" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="KOTLIN" value="true" />
@@ -25,6 +25,21 @@
     <variable name="SUFFIX" expression="capitalize(camelCase(NAME))" defaultValue="" alwaysStopAt="false" />
     <context>
       <option name="KOTLIN" value="true" />
+    </context>
+  </template>
+  <template name="hilt-view-model" value="@dagger.hilt.android.lifecycle.HiltViewModel&#10;class $NAME$ @javax.inject.Inject constructor(&#10;    $PARAM_NAME$: $TYPE$&#10;) : androidx.lifecycle.ViewModel() {&#10;    &#10;    $END$&#10;    &#10;}" description="Add a hilt viewmodel" toReformat="true" toShortenFQNames="true">
+    <variable name="NAME" expression="fileNameWithoutExtension()" defaultValue="&quot;MyViewModel&quot;" alwaysStopAt="false" />
+    <variable name="TYPE" expression="completeSmart()" defaultValue="" alwaysStopAt="true" />
+    <variable name="PARAM_NAME" expression="camelCase(TYPE)" defaultValue="" alwaysStopAt="false" />
+    <context>
+      <option name="KOTLIN" value="true" />
+    </context>
+  </template>
+  <template name="constructor-val" value="private val $VAL_NAME$: $VAL_TYPE$," description="" toReformat="true" toShortenFQNames="true">
+    <variable name="VAL_TYPE" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAL_NAME" expression="camelCase(VAL_TYPE)" defaultValue="" alwaysStopAt="false" />
+    <context>
+      <option name="KOTLIN_CLASS" value="true" />
     </context>
   </template>
 </templateSet>
