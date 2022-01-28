@@ -18,4 +18,13 @@
       <option name="KOTLIN" value="true" />
     </context>
   </template>
+  <template name="jpreviewCompose" value="@androidx.compose.ui.tooling.preview.Preview(&#10;    name = &quot;$NAME$&quot;,&#10;    showBackground = $SHOW_BG$,&#10;    showSystemUi = $SHOW_SYS_UI$,&#10;)&#10;@androidx.compose.runtime.Composable&#10;fun Preview$SUFFIX$() {&#10;    androidx.compose.material.MaterialTheme {&#10;        $END$&#10;    }&#10;}" description="" toReformat="true" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="SHOW_BG" expression="&quot;true&quot;" defaultValue="" alwaysStopAt="true" />
+    <variable name="SHOW_SYS_UI" expression="&quot;false&quot;" defaultValue="" alwaysStopAt="true" />
+    <variable name="SUFFIX" expression="capitalize(camelCase(NAME))" defaultValue="" alwaysStopAt="false" />
+    <context>
+      <option name="KOTLIN" value="true" />
+    </context>
+  </template>
 </templateSet>
