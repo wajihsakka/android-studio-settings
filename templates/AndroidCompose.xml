@@ -42,4 +42,12 @@
       <option name="KOTLIN_CLASS" value="true" />
     </context>
   </template>
+  <template name="comp-file" value="@androidx.compose.runtime.Composable&#10;fun $NAME$(&#10;    $PARAM_NAME$: $TYPE$&#10;){&#10;    $END$&#10;}" description="Adds a composable named after the file that contains it" toReformat="true" toShortenFQNames="true">
+    <variable name="NAME" expression="fileNameWithoutExtension()" defaultValue="&quot;Composable&quot;" alwaysStopAt="false" />
+    <variable name="TYPE" expression="completeSmart()" defaultValue="" alwaysStopAt="true" />
+    <variable name="PARAM_NAME" expression="camelCase(TYPE)" defaultValue="" alwaysStopAt="false" />
+    <context>
+      <option name="KOTLIN" value="true" />
+    </context>
+  </template>
 </templateSet>
