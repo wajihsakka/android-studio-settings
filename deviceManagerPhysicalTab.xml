@@ -12,6 +12,17 @@
         <target value="Android 11.0" />
         <api value="30" />
       </PhysicalDevice>
+      <PhysicalDevice>
+        <key>
+          <Key>
+            <type value="DOMAIN_NAME" />
+            <value value="adb-KJIZSS7L8DKRYHZT-eZQu8M._adb-tls-connect._tcp" />
+          </Key>
+        </key>
+        <name value="OPPO CPH1951" />
+        <target value="Android 11.0" />
+        <api value="30" />
+      </PhysicalDevice>
     </physicalDevices>
   </component>
 </application>
